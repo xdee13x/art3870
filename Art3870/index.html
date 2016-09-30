@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+<section class="row">
+    <h1 class="columns small-12 large-6">headline</h1>
+    <img src="http://placekitten.com/g/600/800" alt="" class="columns small-12 large-12" />
+</section>
+
+<section>
+    Welcome to page 47. I just wanted to say: <span id="greeting">hello!</span>
+</section>
+
+<script type="text/javascript">
+    var myDate = new Date();
+    var myHour = myDate.getHours();
+/* the line above creates a date object in the browser and assigns it the variable called myDate */
+
+    if ( myHour > 12 ){
+        document.getElementById('greeting').innerHTML = "Good Afternoon!";
+    }
+
+</script>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
