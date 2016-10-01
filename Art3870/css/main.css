@@ -1,5 +1,25 @@
-* {
-  border: 1px solid red;
+#greeting{
+  font-family: Futura;
+  font-size: 60px;
 }
 
-#greeting{color: red;}
+h1{
+  font-family: Chalkduster;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+}
+
+#pic{
+  width:300;
+  height:300;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
+}
